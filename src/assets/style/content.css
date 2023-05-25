@@ -1,0 +1,38 @@
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+}
+
+.herobg {
+  background-color: antiquewhite;
+  height: 35%;
+  position: relative;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.maincards {
+  background-color: hotpink;
+  height: 25%;
+}
+
+.traincards {
+  background-color: bisque;
+  height: 25%;
+}
+
+.footer {
+  background-color: darkgrey;
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  bottom: 0;
+}
